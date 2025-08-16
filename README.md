@@ -1,2 +1,2 @@
-# datasci-assignment
+# Datasci-assignment
 This is the test for Data scientist application
