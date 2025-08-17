@@ -9,7 +9,7 @@ This is the test for Data scientist application which belong to Thirachai Ngaoju
 
 2. ในไฟล์ scraper.py อ่าน urls จากไฟล์ .txt จากนั้นก็ for-loop รันฟังก์ชั่น web_scraper เก็บผลลัพธ์เป็นลิสต์ของ JSON แล้วเซฟผลลัพธ์เป็นไฟล์ .JSON
    
-#Intruction RAG
+# Intruction RAG
 1. ในการเรียกใช้ rag_chain ให้ใช้ rag_chain.invoke("Input ที่ต้องการใช้")
 2. input ที่ rag_chain รับจะอยู่ในรูปแบบ JSON โดยมีข้อมูลดังนี้
   {    
