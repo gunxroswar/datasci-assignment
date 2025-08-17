@@ -4,7 +4,7 @@ This is the assignment for Data scientist application which belong to Thirachai 
 # Task 1
 # Intruction Web Scraper
 
-1. เตรียม url ของ web ที่ต้องการจะ scrape ในทีนี้ผมใช้ get_links.ipynb รับ base url มาก่อน ในที่นี้คือ "https://www.agnoshealth.com/forums/search?page=" จากนั้นบันทึก urls ที่ได้ลงไฟล์ .txt
+1. เตรียม url ของ web ที่ต้องการจะ scrape ในทีนี้ผมใช้ get_links.ipynb รับ base url จาก .env มาก่อน แล้ววนลูปเพื่อบันทึก urls ที่ได้ลงไฟล์ .txt
 2. ในไฟล์ scraper.py อ่าน urls จากไฟล์ .txt จากนั้นก็ for-loop รันฟังก์ชั่น web_scraper เก็บผลลัพธ์เป็นลิสต์ของ JSON แล้วเซฟผลลัพธ์เป็นไฟล์ .JSON
 
    
