@@ -1,7 +1,7 @@
 # Datasci-assignment
-This is the test for Data scientist application which belong to Thirachai Ngaoju
+This is the assignment for Data scientist application which belong to Thirachai Ngaoju
 
-#Intruction Web Scraper
+# Intruction Web Scraper
 1.เตรียม url ของ web ที่ต้องการจะ scrape 
 ในทีนี้ผมใช้ get_links.ipynb รับ base url มาก่อน ในที่นี้คือ "https://www.agnoshealth.com/forums/search?page=" 
 จากนั้นบันทึก urls ที่ได้ลงไฟล์ .txt
