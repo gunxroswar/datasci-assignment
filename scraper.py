@@ -2,6 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import json
 
 # %%
 url_list = []
@@ -64,6 +65,11 @@ json_list = []
 
 for url in url_list:
     json_list.append(web_scraper(url))
+
+
+# เซฟทั้งหมดเป็นไฟล์เดียว
+with open("data.json", "w", encoding="utf-8") as f:
+    json.dump(json_list, f, ensure_ascii=False, indent=2)
 
 # %%
 
