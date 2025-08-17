@@ -2,12 +2,10 @@
 This is the assignment for Data scientist application which belong to Thirachai Ngaoju
 
 # Intruction Web Scraper
-1.เตรียม url ของ web ที่ต้องการจะ scrape 
-ในทีนี้ผมใช้ get_links.ipynb รับ base url มาก่อน ในที่นี้คือ "https://www.agnoshealth.com/forums/search?page=" 
-จากนั้นบันทึก urls ที่ได้ลงไฟล์ .txt
 
-
+1. เตรียม url ของ web ที่ต้องการจะ scrape ในทีนี้ผมใช้ get_links.ipynb รับ base url มาก่อน ในที่นี้คือ https://www.agnoshealth.com/forums/search?page=" จากนั้นบันทึก urls ที่ได้ลงไฟล์ .txt
 2. ในไฟล์ scraper.py อ่าน urls จากไฟล์ .txt จากนั้นก็ for-loop รันฟังก์ชั่น web_scraper เก็บผลลัพธ์เป็นลิสต์ของ JSON แล้วเซฟผลลัพธ์เป็นไฟล์ .JSON
+
    
 # Intruction RAG
 1. ในการเรียกใช้ rag_chain ให้ใช้ rag_chain.invoke("Input ที่ต้องการใช้")
