@@ -1,6 +1,7 @@
 # Datasci-assignment
 This is the assignment for Data scientist application which belong to Thirachai Ngaoju
 
+# Task 1
 # Intruction Web Scraper
 
 1. เตรียม url ของ web ที่ต้องการจะ scrape ในทีนี้ผมใช้ get_links.ipynb รับ base url มาก่อน ในที่นี้คือ https://www.agnoshealth.com/forums/search?page=" จากนั้นบันทึก urls ที่ได้ลงไฟล์ .txt
@@ -56,3 +57,5 @@ streamlit run appchat_ui.py
 เปิด browser ที่ http://localhost:8501
 
 อาจจะต้องรอ streamlit ไปรัน rag_chain.py 
+
+# Task 2
